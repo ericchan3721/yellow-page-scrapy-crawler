@@ -112,3 +112,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# exported csv files
+clinic_*.csv
+company_*.csv
+
+# cache
+/clinic_crawler/__pycache__
+/clinic_crawler/spiders/__pycache__
